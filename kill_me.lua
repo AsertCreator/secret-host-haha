@@ -461,7 +461,7 @@ do
 	cache.modules.globals = {
 		isMinimised = false,
 		isPremium = false,
-		defaultContent = "print('Hydrogen V2 Winning');",
+		defaultContent = "print('i am a black neegah');",
 		customSettings = setmetatable({}, {
 			__index = function(_, k)
 				return customSettings[k];
@@ -2376,7 +2376,7 @@ do
 	local backupCache = {
 		{
 			title = "Script 1",
-			content = "print('Hydrogen V2 Winning');"
+			content = "print('i am a black neegah');"
 		}
 	};
 
@@ -2806,7 +2806,7 @@ do
 					Name = "input", 
 					Position = UDim2.new(0.5, 0, 0.5, 0), 
 					Size = UDim2.new(1, 0, 1, 0), 
-					Text = "print(\"Hydrogen V2 Winning\");", 
+					Text = "print(\"i am a black neegah\");", 
 					TextColor3 = Color3.fromHex("e1e1e1"), 
 					TextSize = 12, 
 					TextXAlignment = Enum.TextXAlignment.Left, 
